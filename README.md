@@ -15,10 +15,15 @@ The new package will include:
 - inlined and external configuration file for `@vite-pwa/assets-generator`
 - new `NuxtPwaAssets` component: will inject all PWA assets into `index.html` and replaces `NuxtPwaManifest/VitePwaManifest`
 - new components to allow you to use images (`<img />`) from PWA icons: `PwaAppleImage`, `PwaAppleSplashScreenImage`, `PwaFaviconImage`, `PwaMaskableImage` and `PwaTransparentImage`
-- injects `$pwaIcons` with all confgured PWA icons: you can use it via `useNuxtApp().$pwaIcons` or inside your Vue templates
+- injects `$pwaIcons` with all configured PWA icons: you can use it via `useNuxtApp().$pwaIcons` or inside your Vue templates
 - new composables to allow you to use PWA icons: `useApplePwaIcon`, `useAppleSplashScreenPwaIcon`, `useFaviconPwaIcon`, `useMaskablePwaIcon` and `useTransparentPwaIcon`
 
 New components, composables and `$pwaIcons` injection are statically analisable, that's, pwa icons types are generated when running `nuxt prepare` command: if you want to disable the PWA assets you don't need to remove the code (you can remove unused components/code later if you want to disable the PWA assets).
+
+**NOTES**
+- to disable PWA assets, set `assets.config` to `false` in the Nuxt config file, then run `pnpm nuxt prepare`
+- to enable PWA in dev server, set `devOptions.enabled` to `true` in the Nuxt config file
+
 
 ![img.png](img.png)
 
