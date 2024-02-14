@@ -1,0 +1,20 @@
+{
+  "name": "vite-pwa-nuxt-assets-generator-test",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.15.2",
+  "scripts": {
+    "dev": "nuxi dev",
+    "dev-sw": "SW=true nuxi dev",
+    "build": "nuxi build",
+    "build-sw": "SW=true nuxi build",
+    "generate": "nuxi generate"
+  },
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^0.2.4",
+    "@vite-pwa/nuxt": "file:vite-pwa-nuxt-0.5.0.tgz",
+    "nuxt": "^3.10.1",
+    "typescript": "^5.3.3",
+    "vite-plugin-pwa": "file:vite-plugin-pwa-0.18.1.tgz"
+  }
+}
