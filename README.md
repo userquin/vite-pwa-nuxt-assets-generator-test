@@ -32,7 +32,7 @@ To run this repository in your local machine, you need to have `pnpm` installed.
 
 Then you can run the following commands in the root of the repository: 
 - install dependencies: `pnpm install`
-- to run dev server: `pnpm dev` (PWA disabled in dev mode)
+- to run dev server: `pnpm dev` (PWA disabled in dev mode: you can enable it in the nuxt config file)
 - to run Nuxt `build`: `pnpm build` (PWA enabled in build mode) then `node .output/server/index.mjs`
 - to run Nuxt `generate`: `pnpm generate` (PWA enabled in build mode) then `npx serve .output/public`
 
