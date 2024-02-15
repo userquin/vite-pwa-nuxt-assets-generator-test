@@ -3,7 +3,7 @@ import process from 'node:process'
 const sw = process.env.SW === 'true'
 
 export default defineNuxtConfig({
-  /* ssr: false, */
+  ssr: false,
   modules: ['@vite-pwa/nuxt'],
   future: {
     typescriptBundlerResolution: true,

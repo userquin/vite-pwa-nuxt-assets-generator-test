@@ -8552,7 +8552,7 @@ packages:
     dev: true
 
   file:vite-pwa-nuxt-0.5.0.tgz(@vite-pwa/assets-generator@0.2.4)(rollup@2.79.1)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-n5Y2juSJDzYqZNXTybOmFP3wR7jh1RzFBoIMTkh3tKHOC5IWe/mCj/mzKtSE4dDv+mMJ84Psq7s+dv3T6qod+g==, tarball: file:vite-pwa-nuxt-0.5.0.tgz}
+    resolution: {integrity: sha512-rifW69R4mxHR/zKO/yhCiphUcCJLl+zu/XRb5GSxN6+NV4YVRyGL5wEKTU3J+bkDVsEkqIqcU6Zdj57KyS1fqg==, tarball: file:vite-pwa-nuxt-0.5.0.tgz}
     id: file:vite-pwa-nuxt-0.5.0.tgz
     name: '@vite-pwa/nuxt'
     version: 0.5.0
