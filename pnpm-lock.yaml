@@ -17,9 +17,6 @@ devDependencies:
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
-  vite-plugin-pwa:
-    specifier: file:vite-plugin-pwa-0.18.1.tgz
-    version: file:vite-plugin-pwa-0.18.1.tgz(@vite-pwa/assets-generator@0.2.4)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0)
 
 packages:
 
@@ -8048,6 +8045,29 @@ packages:
       - supports-color
     dev: true
 
+  /vite-plugin-pwa@0.19.0(@vite-pwa/assets-generator@0.2.4)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-Unfb4Jk/ka4HELtpMLIPCmGcW4LFT+CL7Ri1/Of1544CVKXS2ftP91kUkNzkzeI1sGpOdVGuxprVLB9NjMoCAA==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      '@vite-pwa/assets-generator': ^0.2.4
+      vite: ^3.1.0 || ^4.0.0 || ^5.0.0
+      workbox-build: ^7.0.0
+      workbox-window: ^7.0.0
+    peerDependenciesMeta:
+      '@vite-pwa/assets-generator':
+        optional: true
+    dependencies:
+      '@vite-pwa/assets-generator': 0.2.4
+      debug: 4.3.4
+      fast-glob: 3.3.2
+      pretty-bytes: 6.1.1
+      vite: 5.1.1
+      workbox-build: 7.0.0
+      workbox-window: 7.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /vite-plugin-vue-inspector@4.0.2(vite@5.1.1):
     resolution: {integrity: sha512-KPvLEuafPG13T7JJuQbSm5PwSxKFnVS965+MP1we2xGw9BPkkc/+LPix5MMWenpKWqtjr0ws8THrR+KuoDC8hg==}
     peerDependencies:
@@ -8525,34 +8545,8 @@ packages:
       readable-stream: 3.6.2
     dev: true
 
-  file:vite-plugin-pwa-0.18.1.tgz(@vite-pwa/assets-generator@0.2.4)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-uKffF7iO1CBuxJNZtsVU0abAPWgdCIo+yEv3M/JeGKpoE2RVR1zTfDHvvTCOVu75QrtD/8n0qdEEE0WgjtFdqA==, tarball: file:vite-plugin-pwa-0.18.1.tgz}
-    id: file:vite-plugin-pwa-0.18.1.tgz
-    name: vite-plugin-pwa
-    version: 0.18.1
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      '@vite-pwa/assets-generator': ^0.2.4
-      vite: ^3.1.0 || ^4.0.0 || ^5.0.0
-      workbox-build: ^7.0.0
-      workbox-window: ^7.0.0
-    peerDependenciesMeta:
-      '@vite-pwa/assets-generator':
-        optional: true
-    dependencies:
-      '@vite-pwa/assets-generator': 0.2.4
-      debug: 4.3.4
-      fast-glob: 3.3.2
-      pretty-bytes: 6.1.1
-      vite: 5.1.1
-      workbox-build: 7.0.0
-      workbox-window: 7.0.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   file:vite-pwa-nuxt-0.5.0.tgz(@vite-pwa/assets-generator@0.2.4)(rollup@2.79.1)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-rifW69R4mxHR/zKO/yhCiphUcCJLl+zu/XRb5GSxN6+NV4YVRyGL5wEKTU3J+bkDVsEkqIqcU6Zdj57KyS1fqg==, tarball: file:vite-pwa-nuxt-0.5.0.tgz}
+    resolution: {integrity: sha512-EnDp9AhRLg7yqGd63KUbtOGgXHQF2C9AWAfqzdrEky7AydH1AYDV/1LJ5VZvo7NjPUzVbHE71ZTEJtz68EQ1mQ==, tarball: file:vite-pwa-nuxt-0.5.0.tgz}
     id: file:vite-pwa-nuxt-0.5.0.tgz
     name: '@vite-pwa/nuxt'
     version: 0.5.0
@@ -8566,7 +8560,7 @@ packages:
       '@vite-pwa/assets-generator': 0.2.4
       pathe: 1.1.2
       ufo: 1.4.0
-      vite-plugin-pwa: file:vite-plugin-pwa-0.18.1.tgz(@vite-pwa/assets-generator@0.2.4)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0)
+      vite-plugin-pwa: 0.19.0(@vite-pwa/assets-generator@0.2.4)(vite@5.1.1)(workbox-build@7.0.0)(workbox-window@7.0.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
