@@ -1,6 +1,6 @@
 # Nuxt PWA + PWA Assets Generation
 
-This repository is using custom `vite-plugin-pwa` local tgz dependency from [this PR](https://github.com/vite-pwa/vite-plugin-pwa/pull/621) and a custom `@vite-pwa/nuxt` local tgz. 
+This branch using `vite-plugin-pwa v0.19.0` and a custom `@vite-pwa/nuxt` local tgz dependency from [this PR](https://github.com/vite-pwa/nuxt/pull/117). 
 
 This example will generate PWA Assets on the fly in dev server and build:
 - inject `theme-color` extracted from web manifest into `index.html`
